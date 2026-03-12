@@ -51,14 +51,40 @@ D --> E[Mostrar temperatura em Fahrenheit]
 E --> F[Fim]
 
 
+--03_media_ponderada.por--
 
 
+--Descrição--
+
+Este algoritmo simula o sistema de avaliação de uma faculdade que utiliza pesos diferentes para cada prova.
+
+O programa deve ler duas notas do aluno:
+
+Nota da Prova A (peso 4)
+
+Nota da Prova B (peso 6)
+
+Em seguida, o algoritmo calcula a média ponderada, que considera a importância 
+de cada prova no resultado final. A média é calculada multiplicando cada nota 
+pelo seu peso, somando os resultados e dividindo pela soma dos pesos.
+
+A fórmula utilizada é:
+
+Media = \frac{(NotaA \cdot 4) + (NotaB \cdot 6)}{10}
+
+Por fim, o programa exibe a média final do aluno.
 
 
+--Fluxograma--
 
-
-
-
+flowchart TD
+A[Início] --> B[Digite a nota da Prova A]
+B --> C[Ler Nota A]
+C --> D[Digite a nota da Prova B]
+D --> E[Ler Nota B]
+E --> F[Calcular média ponderada]
+F --> G[Mostrar média do aluno]
+G --> H[Fim]
 
 
 
